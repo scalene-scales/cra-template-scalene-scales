@@ -1,8 +1,13 @@
 {
   "name": "cra-template-scalene-scales",
   "version": "0.1.0",
+  "author": "Scalene Scales (https://www.youtube.com/@scalenescales)",
   "description": "The base template for Scalene Scale React projects.",
-  "license": "agplv3",
+  "license": "AGPL-3.0-only",
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/scalene"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
