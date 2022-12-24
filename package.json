@@ -2,6 +2,7 @@
   "name": "cra-template-scalene-scales",
   "version": "0.1.0",
   "description": "The base template for Scalene Scale React projects.",
+  "license": "agplv3",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -49,6 +50,15 @@
           "argsIgnorePattern": "^_|props",
           "varsIgnorePattern": "^_|props",
           "caughtErrorsIgnorePattern": "^_|props"
+        }
+      ],
+      "@typescript-eslint/no-restricted-imports": [
+        "error",
+        {
+          "patterns": [
+            "__tests__"
+          ],
+          "message": "Do not import from test files."
         }
       ],
       "no-console": "warn"
