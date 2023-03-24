@@ -27,3 +27,11 @@ or
 ```
     "license": "AGPL-3.0-only",
 ```
+
+## Repository
+
+Add the `PERSONAL_ACCESS_TOKEN` per:
+
+```
+https://github.com/contributor-assistant/github-action
+```
